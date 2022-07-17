@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+body {
+    margin: 0 auto;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+.txt_center {
+    text-align: center;
+}
+
+
+header {
+
+    background-color: #87509c;
+    ;
+}
+
+.Information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin: 0px 10px;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+}
+
+.nav li:hover {
+    background-color: #643a79;
+}
+
+.about {
+    text-align: center;
+    color: white;
+}
+
+.about h3 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+
+.btn-about {
+    background-color: #eb7d4b;
+    padding: 28px 80px;
+    border: 1px solid #eb7d4b;
+    color: white;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-about:active {
+    border: 1px solid black;
+}
+
+.block1 {
+    background-color: #17c2a4;
+    padding: 30px 0px;
+}
+
+.block1 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+hr {
+    border: none;
+    border-top: 5px solid black;
+    width: 90px;
+    opacity: 0.3;
+}
+
+.block1-desc {
+    text-align: center;
+    font-size: 18px;
+}
+
+.block1-items {
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.block1-items h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.block1-items div {
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #e7f1f8;
+    padding: 10px 0px;
+}
+
+.team h2{
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.circle_group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.circle_1 {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin: 0 auto;
+}
+
+.names {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.social {
+    margin: 20px;
+}
+
+.block3 {
+    text-align: center;
+}
+
+.block3 h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.block3 p {
+    color: black;
+}
+
+.skills {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.skills div div {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 7px;
+}
+
+.circle-skills1 {
+    border: 10px solid lightskyblue;
+}
+
+.circle-skills2 {
+    border: 10px solid #d74680;
+}
+
+.circle-skills3 {
+    border: 10px solid #15c7a8;
+}
+
+.circle-skills4 {
+    border: 10px solid #eb7d4b;
+}
+
+.skills-name{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.block4 {
+    background-color: #ffdd99;
+    text-align: center;
+}
+
+.block4 h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+
+.block4 p {
+    color: black;
+    font-size: 18px;
+}
+
+.pc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.btn-block4:active {
+    border: solid 1px black;
+}
+
+
+.block4 button {
+    padding: 30px 80px;
+    margin-bottom: 50px;
+    background-color: cyan;
+    border: 1px solid cyan;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.block5 {
+    background-color: #d74680;
+    padding: 10px;
+}
+
+.block5 h2{
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.block5 h4{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.our_team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.people {
+    display: flex;
+    width: 49%;
+}
+
+.people div {
+    padding: 10px;
+}
+
+.profile_pic {
+    background-color: gray;
+    width: 80px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.block6 {
+    background-color: darkslateblue;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block6 h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    width: 600px;
+    height: 200px;
+    padding: 0px;
+    border: 0px;
+    margin-top: 30px;
+    background-color: #273a71;
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.input {
+    display: flex;
+    width: 600px;
+    gap: 30px;
+}
+
+input {
+    width: 100%;
+    background-color: #273a71;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.block6 button {
+    text-align: center;
+    padding: 30px 80px;
+    background-color: cyan;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    border: 1px solid cyan;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-block6:active {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: rgb(0, 0, 155);
+    padding: 5px;
+}
+
+.git {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 100px;
+    list-style: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.git li:hover {
+    color: aqua;
+}
